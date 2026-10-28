@@ -32,7 +32,7 @@ export const kindergarten = {
    * While it is empty, no button is rendered — only a calm "the link will appear soon" note.
    */
   documents: {
-    driveUrl: "",
+    driveUrl: "https://drive.google.com/drive/folders/0AKUAFV5dCZbeUk9PVA",
   },
   /**
    * Map marker. The kindergarten has no 2GIS/OSM card yet, so the point is the middle of
