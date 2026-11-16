@@ -36,10 +36,6 @@ export function Groups() {
                   {n}
                 </span>
                 <h3 className="mt-3.5 text-[1.15rem] font-extrabold text-ink">{g.group(n)}</h3>
-                <p className="relative mt-1 flex items-start gap-1.5 text-[0.82rem] leading-snug text-ink-soft">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-honey" aria-hidden="true" />
-                  {g.nameSoon}
-                </p>
               </Reveal>
             ))}
           </ul>

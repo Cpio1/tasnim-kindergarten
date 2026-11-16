@@ -27,7 +27,6 @@ export function MobileGroups() {
                 </span>
                 <h3 className="text-[1rem] font-extrabold text-ink">{g.group(n)}</h3>
               </div>
-              <p className="mt-2 text-[0.74rem] leading-snug text-ink-soft">{g.nameSoon}</p>
             </Reveal>
           ))}
         </ul>
